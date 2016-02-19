@@ -11,7 +11,11 @@ That was just the size and mass of filling it with rocks / dirt to get the mass.
 It would then need some very large, expensive bearings.
 Since having a partial or full vacuum on that size would be crazy-expensive, you'd be losing a lot of energy per day.
 
-Not good.
-Let's do better.
+I want to revisit this, to see how accurate I was, and to see if I can make a smaller flywheel, that maybe is less expensive overall.
+Maybe by using a fast-spinning one made of less total materials.
+(Although they'd be more expensive per unit.)
 
-(finish writing this up...)
+According to [this document](https://www.saskatoon.ca/sites/default/files/documents/corporate-performance/environmental-corporate-initiatives/city-ENVIRO-FINAL-JULY29-web.pdf), Saskatoon used about 1.01 * 10^11 Wh in 2013, just in electricity.
+I can only get to about 5.0 * 10^6 Wh by multiplying my own household usage per month by twelve months and 260k people (2011's population, apparently).
+Thus, I assume the vast majority is from offices and industrial use.
+Either way, I have a nice, easy, accurate amount of electricity to use in my calculations.
