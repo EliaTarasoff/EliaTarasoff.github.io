@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <h1 class="post-title">
-            {{ page.title }}
-        </h1>
-    </head>
-    <body class="post-content">
-        <p>test123</p>
-        {{ content }}
-    </body>
-</html>
+---
+layout: default
+---
+<div class="content">
+    <div class="post single">
+        {% unless page.title_hidden %}
+            <h1>{{ page.title }}</h1>
+            <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+                {{ page.date | date: "%b %d, %Y" }}
+            </info>
+        {% endunless %}
+        <div class="body">{{ content }}</div>
+    </div>
+</div>
