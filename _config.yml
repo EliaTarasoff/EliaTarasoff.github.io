@@ -2,11 +2,6 @@ permalink: /posts/:title
 defaults:
     -
         scope:
-            path: "" # empty string for all files
-        values:
-            layout: "default"
-    -
-        scope:
             path: "_posts"
         values:
             layout: "post"
