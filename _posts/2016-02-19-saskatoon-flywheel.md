@@ -44,3 +44,11 @@ I'm going to skip the math here, and say that it's on the order of 10s or 100s o
 So...*possibly* feasible for Saskatoon, with our wide-open plains.
 Maybe.
 Cities in more densely-packed countries wouldn't have the space for it.
+
+# Must Go Faster!
+The nice thing about our energy equation is that the velocity gets squared.
+So, if you have a strong, light material like carbon fiber or something, you can get a lot more energy, for a lot less mass.
+Of course, the air-friction will increase with the square of the velocity too, so it's going to need to be in a partial vacuum.
+Still, if the thing is that much smaller, it's probably going to be actually feasible.
+
+Calculations to come...
