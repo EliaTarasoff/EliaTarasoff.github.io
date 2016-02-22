@@ -45,6 +45,14 @@ So...*possibly* feasible for Saskatoon, with our wide-open plains.
 Maybe.
 Cities in more densely-packed countries wouldn't have the space for it.
 
+# Oops. That was a full year.
+So, I forgot to make this thing only large enough for a small time of energy storage.
+Let's make the math easy, and say I want it to be 64 times smaller, or a 4 times smaller in every direction.
+Then my solid-steel flywheel is only 40-ish m tall and wide, and still provides energy for 5.7 days.
+That's a full business week, and the thing is actually starting to look feasible again...sort of.
+I mean, that would probably still be more steel than like, every car in the city, but maybe not all the trucks, and definitely not all the semis, tractors, or buildings.
+Still, we need that steel for all of those things, so we're probably going to want to build it out of something cheaper.
+
 # Must Go Faster!
 The nice thing about our energy equation is that the velocity gets squared.
 So, if you have a strong, light material like carbon fiber or something, you can get a lot more energy, for a lot less mass.
