@@ -14,8 +14,15 @@ txt += "<p>Browser Language: " + navigator.language + "</p>";
 txt += "<p>Browser Online: " + navigator.onLine + "</p>";
 txt += "<p>Platform: " + navigator.platform + "</p>";
 txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
-txt += "<p>Viewport Width: " + page.viewportSize.width + "</p>";
-txt += "<p>Viewport Height: " + page.viewportSize.height + "</p>";
+
+var w = window,
+  d = document,
+  e = d.documentElement,
+  g = d.getElementsByTagName('body')[0],
+  x = w.innerWidth || e.clientWidth || g.clientWidth,
+  y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+txt += "<p>Width: " + page.viewportSize.width + "</p>";
+txt += "<p>Height: " + page.viewportSize.height + "</p>";
 
 document.getElementById("demo").innerHTML = txt;
 </script>
