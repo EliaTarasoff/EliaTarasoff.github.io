@@ -15,14 +15,14 @@ txt += "<p>Browser Online: " + navigator.onLine + "</p>";
 txt += "<p>Platform: " + navigator.platform + "</p>";
 txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
 
-var w = window,
-  d = document,
-  e = d.documentElement,
-  g = d.getElementsByTagName('body')[0],
-  x = w.innerWidth || e.clientWidth || g.clientWidth,
-  y = w.innerHeight|| e.clientHeight|| g.clientHeight;
-txt += "<p>Width: " + page.viewportSize.width + "</p>";
-txt += "<p>Height: " + page.viewportSize.height + "</p>";
+txt += "<p>window.innerWidth: " + window.innerWidth + "</p>";
+txt += "<p>window.innerHeight: " + window.innerHeight + "</p>";
+
+txt += "<p>document.documentElement.clientWidth: " + document.documentElement.clientWidth + "</p>";
+txt += "<p>document.documentElement.clientHeight: " + document.documentElement.clientHeight + "</p>";
+
+txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.getElementsByTagName('body')[0].clientWidth + "</p>";
+txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.getElementsByTagName('body')[0].clientHeight + "</p>";
 
 document.getElementById("demo").innerHTML = txt;
 </script>
