@@ -15,9 +15,8 @@ txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
 
 txt += "<p>CPU: " + navigator.oscpu + "</p>";
 txt += "<p>productSub: " + navigator.productSub + "</p>";
-txt += "<p>plugins: " + navigator.plugins + "</p>";
-txt += "<p>mimeTypes: " + navigator.mimeTypes + "</p>";
-txt += "<p>mimeType 0: " + navigator.mimeTypes[0] + "</p>";
+txt += "<p>plugins: " + JSON.stringify(navigator.plugins) + "</p>";
+txt += "<p>mimeTypes: " + JSON.stringify(navigator.mimeTypes) + "</p>";
 
 txt += "<p>window.innerWidth: " + window.innerWidth + "</p>";
 txt += "<p>window.innerHeight: " + window.innerHeight + "</p>";
