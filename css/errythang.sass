@@ -2,30 +2,35 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+$black: #000
+$green-dark: #020
+$green-med: #080
+$green: #0F0
+
 *
     padding: 0px
     margin: 0px
     border: 0px
 
 body
-    background: #080
-    color: #000
+    background: $green-med
+    color: $black
     font: 18px fixed, sans-serif
     line-height: 1.4
     padding: 9px
     
     a
-        background: #020
-        color: #080
+        background: #F0F
+        color: $green-med
         text-decoration: none
     
     .post-content
-        background: #000
-        color: #0F0
+        background: $black
+        color: $green
         max-width: 800px
         padding: 18px
         margin: 9px
         
         a
-            background: #080
-            color: #020
+            background: $green-med
+            color: $green-dark
