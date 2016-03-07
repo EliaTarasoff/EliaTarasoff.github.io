@@ -26,6 +26,7 @@ txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.g
 
 txt += "<p>Check the console for JS objects.</p>";
 console.log("navigator: %o", navigator);
+console.log("navigator to JSON string", JSON.stringify(navigator));
 console.log("navigator to JSON string and back: %o", JSON.parse(JSON.stringify(navigator)));
 
 document.getElementById("demo").innerHTML = txt;
