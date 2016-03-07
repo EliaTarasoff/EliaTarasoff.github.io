@@ -25,16 +25,16 @@ txt += "<p>document.documentElement.clientHeight: " + document.documentElement.c
 txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.getElementsByTagName('body')[0].clientWidth + "</p>";
 txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.getElementsByTagName('body')[0].clientHeight + "</p>";
 
-txt += "<p>Check the console for JS objects.</p>";
-console.log("navigator: %o", navigator);
-var nav_str;
+// txt += "<p>Check the console for JS objects.</p>";
+// console.log("navigator: %o", navigator);
+// var nav_str;
 // for (obj in navigator) {
 //   if ((typeof obj !== undefined) && (obj !== undefined) && (obj !== null)) {
 //     nav_str += obj + ':' + JSON.stringify(navigator[obj]) + '\n';
 //   }
 // }
-console.log("navigator to JSON string 305pm\n", nav_str);
-console.log("navigator to JSON string and back: %o", JSON.parse(nav_str));
+// console.log("navigator to JSON string\n", nav_str);
+// console.log("navigator to JSON string and back: %o", JSON.parse(nav_str));
 
 document.getElementById("demo").innerHTML = txt;
 </script>
