@@ -14,8 +14,6 @@ txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
 
 txt += "<p>CPU: " + navigator.oscpu + "</p>";
 txt += "<p>productSub: " + navigator.productSub + "</p>";
-txt += "<p>plugins: " + JSON.stringify(navigator.plugins) + "</p>";
-txt += "<p>mimeTypes: " + JSON.stringify(navigator.mimeTypes) + "</p>";
 console.log("navigator: %o", navigator);
 console.log("navigator to JSON string and back: %o", JSON.parse(JSON.stringify(navigator)));
 
