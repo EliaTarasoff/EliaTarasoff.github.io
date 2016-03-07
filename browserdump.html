@@ -26,8 +26,15 @@ txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.g
 
 txt += "<p>Check the console for JS objects.</p>";
 console.log("navigator: %o", navigator);
-console.log("navigator to JSON string", JSON.stringify(navigator));
-console.log("navigator to JSON string and back: %o", JSON.parse(JSON.stringify(navigator)));
+var used=[];
+var nav_str=JSON.stringify(navigator, function(a,b,c){
+  if(used.indexOf(b)===-1 && used.length < 100 ){
+     used.push(b);
+     return b;
+  }
+});
+console.log("navigator to JSON string", nav_str);
+console.log("navigator to JSON string and back: %o", JSON.parse(nav_str));
 
 document.getElementById("demo").innerHTML = txt;
 </script>
