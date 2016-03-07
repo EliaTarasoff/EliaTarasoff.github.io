@@ -15,10 +15,6 @@ txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
 txt += "<p>CPU: " + navigator.oscpu + "</p>";
 txt += "<p>productSub: " + navigator.productSub + "</p>";
 
-txt += "<p>Check the console for JS objects.</p>";
-console.log("navigator: %o", navigator);
-console.log("navigator to JSON string and back: %o", JSON.parse(JSON.stringify(navigator)));
-
 txt += "<p>window.innerWidth: " + window.innerWidth + "</p>";
 txt += "<p>window.innerHeight: " + window.innerHeight + "</p>";
 
@@ -27,6 +23,10 @@ txt += "<p>document.documentElement.clientHeight: " + document.documentElement.c
 
 txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.getElementsByTagName('body')[0].clientWidth + "</p>";
 txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.getElementsByTagName('body')[0].clientHeight + "</p>";
+
+txt += "<p>Check the console for JS objects.</p>";
+console.log("navigator: %o", navigator);
+console.log("navigator to JSON string and back: %o", JSON.parse(JSON.stringify(navigator)));
 
 document.getElementById("demo").innerHTML = txt;
 </script>
