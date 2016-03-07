@@ -27,10 +27,10 @@ txt += "<p>document.getElementsByTagName('body')[0].clientHeight: " + document.g
 txt += "<p>Check the console for JS objects.</p>";
 console.log("navigator: %o", navigator);
 var nav_str;
-for (obj in navigator) {
-  nav_str += obj + ':' + JSON.stringify(navigator[obj]) + '\n';
-}
-console.log("navigator to JSON string 256pm", nav_str);
+for (obj in navigator)
+  if ((typeof obj !== undefined) && (obj !== null))
+    nav_str += obj + ':' + JSON.stringify(navigator[obj]) + '\n';
+console.log("navigator to JSON string 304pm\n", nav_str);
 console.log("navigator to JSON string and back: %o", JSON.parse(nav_str));
 
 document.getElementById("demo").innerHTML = txt;
