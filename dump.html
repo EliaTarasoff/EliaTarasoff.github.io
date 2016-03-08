@@ -25,12 +25,13 @@ pluginstxt = ""
 if (navigator['plugins']) {
     for (var data in navigator['plugins']) {
         if ((navigator['plugins']['data']) && (typeof navigator['plugins']['data'] == 'object')) {
-            pluginstxt += "plugin name: " + navigator['plugins']['data']['name'] + "\n"
-            pluginstxt += 'plugin version' + navigator['plugins']['data']['version'] + "\n"
-            pluginstxt += '\n'
+            pluginstxt += "plugin name: " + navigator['plugins']['data']['name'] + "\n";
+            pluginstxt += 'plugin version' + navigator['plugins']['data']['version'] + "\n";
+            pluginstxt += '\n';
         }
     }
 }
+txt += pluginstxt;
 
 txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
 
