@@ -8,7 +8,7 @@ layout: default
 // navKeys = ['vendorSub', 'plugins', 'geolocation', 'platform'];
 // for (key in window.navigator) { if ((navKeys.indexOf(key) > -1)) {console.log('<p>' + key + ': ' + window.navigator[key] + '</p>'); }}
 
-var txt = "9:49am\n";
+var txt = "9:54am\n";
 txt += "<p>navigator.appName: " + navigator.appName + "</p>";
 txt += "<p>navigator.platform: " + navigator.platform + "</p>";
 txt += "<p>navigator.cookieEnabled: " + navigator.cookieEnabled + "</p>";
@@ -23,10 +23,10 @@ txt += "<p>productSub: " + navigator.productSub + "</p>";
 
 pluginstxt = ""
 if (navigator['plugins']) {
-    for (var data in navigator['plugins']) {
-        if ((navigator['plugins']['data']) && (typeof navigator['plugins']['data'] == 'object')) {
-            pluginstxt += "plugin name: " + navigator['plugins']['data']['name'] + "\n";
-            pluginstxt += 'plugin version' + navigator['plugins']['data']['version'] + "\n";
+    for (var plugin in navigator['plugins']) {
+        if ((navigator['plugins'][plugin]) && (typeof navigator['plugins'][plugin] == 'object')) {
+            pluginstxt += "plugin name: " + navigator['plugins'][plugin]['name'] + "\n";
+            pluginstxt += 'plugin version' + navigator['plugins'][plugin]['version'] + "\n";
             pluginstxt += '\n';
         }
     }
