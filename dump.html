@@ -4,17 +4,35 @@ layout: default
 <div id="demo"></div>
 
 <script>
-var txt = "";
-txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
-txt += "<p>Browser Name: " + navigator.appName + "</p>";
-txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
-txt += "<p>Browser Language: " + navigator.language + "</p>";
-txt += "<p>Platform: " + navigator.platform + "</p>";
-txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
+// // fwiw
+// navKeys = ['vendorSub', 'plugins', 'geolocation', 'platform'];
+// for (key in window.navigator) { if ((navKeys.indexOf(key) > -1)) {console.log('<p>' + key + ': ' + window.navigator[key] + '</p>'); }}
 
-txt += "<p>OS CPU: " + navigator.oscpu + "</p>";
-txt += "<p>CPU class: " + navigator.cpuClass + "</p>";
+var txt = "";
+txt += "<p>navigator.appName: " + navigator.appName + "</p>";
+txt += "<p>navigator.platform: " + navigator.platform + "</p>";
+txt += "<p>navigator.cookieEnabled: " + navigator.cookieEnabled + "</p>";
+txt += "<p>navigator.appCodeName: " + navigator.appCodeName + "</p>";
+txt += "<p>navigator.appVersion: " + navigator.appVersion + "</p>";
+txt += "<p>navigator.language: " + navigator.language + "</p>";
+txt += "<p>navigator.systemLanguage: " + navigator.systemLanguage + "</p>";
+txt += "<p>navigator.userLanguage: " + navigator.userLanguage + "</p>";
+txt += "<p>navigator.oscpu: " + navigator.oscpu + "</p>";
+txt += "<p>navigator.cpuClass: " + navigator.cpuClass + "</p>";
 txt += "<p>productSub: " + navigator.productSub + "</p>";
+
+pluginstxt = ""
+if (navigator['plugins']) {
+    for (var data in navigator['plugins']) {
+        if ((navigator['plugins']['data']) && (typeof navigator['plugins']['data'] == 'object')) {
+            pluginstxt += "plugin name: " + navigator['plugins']['data']['name'] + "\n"
+            pluginstxt += 'plugin version' + navigator['plugins']['data']['version'] + "\n"
+            pluginstxt += '\n'
+        }
+    }
+}
+
+txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
 
 txt += "<p>window.innerWidth: " + window.innerWidth + "</p>";
 txt += "<p>window.innerHeight: " + window.innerHeight + "</p>";
