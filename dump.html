@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="demo"></div>
+        <script>
+        var txt = '';
+
+        var navKeys = ['appName', 'platform', 'cookieEnabled', 'appCodeName', 'appVersion', 'language', 'systemLanguage', 'userLanguage', 'oscpu', 'cpuClass', 'productSub'];
+        for (key in navigator) {
+            if ((navKeys.indexOf(key) > -1)) {
+                txt += '<p>' + key + ': ' + navigator[key] + '</p>';
+            }
+        }
+
+        pluginstxt = "";
+        if (navigator['plugins']) {
+            for (var plugin in navigator['plugins']) {
+                if ((navigator['plugins'][plugin]) && (typeof navigator['plugins'][plugin] == 'object')) {
+                    pluginstxt += "<p>plugin name: " + navigator['plugins'][plugin]['name'] + "</p>";
+                    pluginstxt += '<p>plugin version:' + navigator['plugins'][plugin]['version'] + "</p>";
+                }
+            }
+        }
+        txt += pluginstxt;
+
+        mimeTypesTxt = ""
+        if (navigator['mimeTypes']) {
+            for (var mimeType in navigator['mimeTypes']) {
+                if ((navigator['mimeTypes'][mimeType]) && (typeof navigator['mimeTypes'][mimeType] == 'object')) {
+                    mimeTypesTxt += "<p>mimeType description: " + navigator['mimeTypes'][mimeType]['description'] + "</p>";
+                    mimeTypesTxt += '<p>mimeType type:' + navigator['mimeTypes'][mimeType]['type'] + "</p>";
+                }
+            }
+        }
+        txt += mimeTypesTxt;
+
+        txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
+        txt += "<p>screen.width: " + screen.width + "</p>";
+        txt += "<p>screen.height: " + screen.height + "</p>";
+
+        // txt += "<p>Check the console for JS objects.</p>";
+        // console.log("navigator: %o", navigator);
+        // var nav_str;
+        // for (obj in navigator) {
+        //   if ((typeof obj !== undefined) && (obj !== undefined) && (obj !== null)) {
+        //     nav_str += obj + ':' + JSON.stringify(navigator[obj]) + '\n';
+        //   }
+        // }
+        // console.log("navigator to JSON string\n", nav_str);
+        // console.log("navigator to JSON string and back: %o", JSON.parse(nav_str));
+
+        document.getElementById("demo").innerHTML = txt;
+        </script>
+    </body>
+</html>
