@@ -15,8 +15,30 @@ My weed-whacker's battery is completely different from my brother's.
 The batteries for my mother's hand-drill are a different voltage,
 size, and shape, than every single brand offered in the local Canadian Tire,
 Lowes, and Home Hardware.
-It's a good thing it's still holding some charge.
-When it completely dies, she'll need to throw the entire drill out.
+If the battery dies dies, she'll need to throw the entire drill out.
 
-# Why Care?
+# We've Done It Before
+We've solved these problems before.
 
+Before the standardization of battery sizes like the D, C, AA, and AAA,
+batteries came in just as many sizes as modern larger-sized ones.
+Those standard sizes have powered many different devices over the years,
+such as portable music players, cameras, remote-controls for televisions
+(you know, the device you watch Netflix on nowadays), and walkie-talkies.
+Those batteries were so prolific and easy to use, that the wireless keyboard
+I'm using to write this *literally has AAs inside of it, instead of a custom
+battery*.
+
+Cell-phone charging cables likewise used to be a mess.
+Just like laptop power-bricks / cables today, they had different voltages,
+maximum amperages, and plug shapes.
+New phones couldn't use old cables, and you couldn't borrow one from a friend
+if it was a different brand.
+A lot of these ended up in the garbage.
+However, enough people in Europe got sick of this annoyance and waste,
+that they started a campaign on Facebook to spread the word, and
+rally people to contact their political representatives.
+Because of their work, cell phones must now use standard USB cables to charge.
+
+# Time To Do It Again
+TODO
