@@ -9,13 +9,17 @@ Too high, and the device will *definitely* get damaged.
 After that, you need to worry about the physical connector.
 Replacement "generic" laptop power adapters have half a dozen or more
 connectors of different sizes, shapes, and pin layouts.
+He eventually found a replacement on Amazon, and paid dearly for it.
 
 # Handheld Power Tools
 My weed-whacker's battery is completely different from my brother's.
+I'm certain my uncles, cousins, and friends all have different batteries,
+depending on which manufacturer *or year* they happened to purchase.
+I guess we'll just throw them all out when they die.
 The batteries for my mother's hand-drill are a different voltage,
 size, and shape, than every single brand offered in the local Canadian Tire,
 Lowes, and Home Hardware.
-When the battery eventually dies, she'll need to throw the entire drill out.
+When the battery eventually dies, she'll need to throw out the *entire drill.*
 
 # Recycle?
 You might ask, "Why is this a problem - can't we just recycle these batteries and cables
@@ -23,6 +27,7 @@ when they break?"
 Yes, hypothetical person who is an amalgam of different conversations I've had
 over the years, you can recycle things.
 However, you forget that the Three Rs stand for Reduce, Re-use, Recycle.
+(Do younger people even get taught this anymore? I hope so.)
 A clever person would realize, that those options plus the final Rebuild,
 are increasing order of cost, effort, and materials!
 We all want these cool gadgets, and they do eventually break,
@@ -30,7 +35,7 @@ so the "reduce" option isn't really applicable here.
 However, we still have one more option before the expense of melting these
 things back down, or buying a newly-built one.
 Rather, we *would* have the re-use option, if these cables and batteries
-were'nt proprietary, non-standard things!
+weren't proprietary, non-standard things!
 
 # Why Care?
 Proprietary cables and batteries are at best a nuisance,
