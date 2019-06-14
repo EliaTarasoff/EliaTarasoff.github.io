@@ -170,6 +170,6 @@ or maximum outputs of 10W, 50W, 100W, etc.
 This could cover all things from cameras to cell-phones, laptops to lawn mowers.
 
 # Closing Remarks
-I've run out of things to say, so hopefully I've convinced you of how easy this
-could be, and the benefits it would bring to everyone.
-I'm off to write up a petition, to light a fire under some peoples' feet.
+I've run out of things to say.
+If I've convinced you of how easy this could be, and the benefits it would bring
+to everyone, sign [this petition](http://chng.it/CMdrw7kk2j).
