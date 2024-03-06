@@ -1,4 +1,4 @@
 Phil Haack has a good blog tha also uses Jekyll.
     http://haacked.com/
     https://github.com/Haacked/haacked.com
-    i.e. See how he's got jekyll configured.
+    i.e. See how he's got jekyll configured..
