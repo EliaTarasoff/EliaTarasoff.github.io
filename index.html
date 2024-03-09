@@ -1,19 +1,23 @@
 ---
-layout: default
+layout: index
 ---
-<h1 class="blog-title">
-    Elia's blog-o-matic blogosphere!
-</h1>
 
-<h2 class="blog-subtitle">
-    The place where I experiment with html, javascript, sass, and write things that could charitably be called "blogs".
-</h2>
+<div class="everything">
+    <div class="blog-title">
+        Elia's blog-o-matic blogosphere!
+    </div>
 
-<h1 class="blog-list">Blogs!</h1>
-<ul>
-    {% for post in site.posts %}
+    <div class="blog-subtitle">
+        The place where I experiment with html, javascript, sass, and write things that could charitably be called
+        "blogs".
+    </div>
+
+    <div class="blog-list-label">Blogs!</div>
+    <ul class="blog-list">
+        {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a class="blog-list-item" href="{{ post.url }}">{{ post.title }}</a>
         </li>
-    {% endfor %}
-</ul>
+        {% endfor %}
+    </ul>
+</div>
