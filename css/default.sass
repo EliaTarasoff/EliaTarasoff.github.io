@@ -24,20 +24,23 @@ $x3: $x1 * 3
     font-family: 'Hack'
     font-weight: bold
 
-body
+everything
+    display: inline-flex
+    flex-direction: row
+    justify-content: center
     background-color: $black
     max-width: 800px
     color: $green
     font-size: $x2
     line-height: 1.4
     padding: $x1
-    
-    ul
-        display: inline-flex
-        flex-direction: column
-    
-    a
-        background: $green-med
-        color: $black
-        text-decoration: none
-        display: block
+
+blog-list
+    display: inline-flex
+    flex-direction: column
+
+blog-list-item
+    background: $green-med
+    color: $black
+    text-decoration: none
+    display: block
