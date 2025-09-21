@@ -12,6 +12,11 @@ Fair Use in the USA since it is only very brief references in a creative work,
 not for profit, and does not compete with the source material.
 
 ## The Poem
+This poem is a rough transcript of the nightmares I had.
+At the worst of it, I didn't know if I was alive or dead,
+imaginary or real, or if time went forwards or backwards.
+I'm still fixing my PTSD...
+
 **Don't Fuck With The Lady of Pain**
 ```
 A fairly normal day, ending a fairly normal way.
