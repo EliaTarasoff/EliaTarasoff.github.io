@@ -86,10 +86,10 @@ Paying for coffee, the waitress is nice.
 Until she turns into the Lady of Dice.
 
 Now you're a worm eating dirt.
-You'll hapilly get used to eating shit,
+You'll happily get used to eating shit,
 But the Lady shows up again.
 You can't be allowed happiness.
-You're sent through the bodies of all your descendents,
+You're sent through the bodies of all your descendants,
 Living, dying, and evolving in fractal worlds.
 Brief glimpses of your friends and family
 Are only there to keep you chasing infinite universes.
