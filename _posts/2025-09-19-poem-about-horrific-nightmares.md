@@ -91,4 +91,23 @@ Now you're a worm eating dirt.
 You'll hapilly get used to eating shit,
 But the Lady shows up again.
 You can't be allowed happiness.
+You're sent through the bodies of all your descendents,
+Living, dying, and evolving in fractal worlds.
+Brief glimpses of your friends and family
+Are only there to keep you chasing infinite universes.
+
+Spinning and dazed, lost and confused,
+Eventually a few friends and family tell you to shut up.
+The screaming is a siren call leading the Lady to you.
+A loud dance - the conga line will hide you for now.
+Just hold your hand over your mouth, and bite your tongue.
+Through a painting here, and a doorway there.
+Pictures and portals, wizards and wands.
+Fuck up a few times, but new families help you again.
+
+A Lost Weekend, but not a drop of alcohol in years.
+Dog shit and urine on the floor.
+Time to clean up.
+Time to train.
+Time to reboot your own fucking brain.  
 ```
