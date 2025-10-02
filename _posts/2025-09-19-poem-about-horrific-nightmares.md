@@ -9,7 +9,7 @@ I am not affiliated with any companies that own trademarks or copyrights,
 for any fictional character(s) or other things mentioned in this poem of mine.
 I in good faith believe that this constitutes Fair Dealing in Canada, or
 Fair Use in the USA since it is only very brief references in a creative work,
-not for profit, and does not compete with the source material.
+not for profit, and does not compete with the original material or objects.
 
 ## The Poem
 This poem is a rough transcript of the nightmares I had.
@@ -73,8 +73,7 @@ Means surely at least one of you is a god.
 They hear your call and gently act,
 And place you down somewhat intact.
 You thank them profusely and prostrate.
-...But the Lady bursts out.
-Out of their chest to swallow you whole.
+The Lady bursts out of their chest to swallow you whole.
 
 Another you tries to invent instead,
 Ships, portals and time-machines.
@@ -84,8 +83,7 @@ You finally end up in a safe place.
 Good enough.
 You'll build a new life from scratch.
 Paying for coffee, the waitress is nice.
-Until she turns into the Lady.
-Dead again.
+Until she turns into the Lady of Dice.
 
 Now you're a worm eating dirt.
 You'll hapilly get used to eating shit,
@@ -109,5 +107,7 @@ A Lost Weekend, but not a drop of alcohol in years.
 Dog shit and urine on the floor.
 Time to clean up.
 Time to train.
-Time to reboot your own fucking brain.  
+Time to reboot your own fucking brain.
 ```
+
+Thanks for reading! :)
